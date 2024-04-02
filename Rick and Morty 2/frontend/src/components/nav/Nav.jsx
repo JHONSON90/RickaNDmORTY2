@@ -1,6 +1,6 @@
 import SearchBar from "../searchBar/SearchBar";
 import Button from "../button/Button";
-
+import Login from "../login/Login";
 
 
 const Nav = ({ onSearch })=>{
@@ -10,6 +10,7 @@ const Nav = ({ onSearch })=>{
             <Button link="/favorites" text="Favorites"/>
             {/*<Button link="/about" text={About}/>*/}
             <SearchBar onSearch={onSearch}/>
+            <Login/>
         </nav>
     )
 }
